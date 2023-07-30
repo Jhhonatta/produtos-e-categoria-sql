@@ -1,0 +1,15 @@
+import database from "../../database/index.js";
+
+const profileCategoryService = async (id) => {
+  const queryResponse = await database.query(
+    `
+    SELECT * FROM categories
+    WHERE 
+    id = $1;
+    `,
+    [id]
+  );
+
+  return queryResponse.rows[0];
+};
+export default profileCategoryService;

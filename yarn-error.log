@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\jhona\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\jhona\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\jhona\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\jhona\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\jhona\AppData\Local\Programs\Python\Python311;C:\Users\jhona\AppData\Local\Microsoft\WindowsApps;C:\Users\jhona\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jhona\AppData\Roaming\npm;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+
+npm manifest: 
+  {
+    "name": "entrega_sprint_3",
+    "version": "1.0.0",
+    "main": "./src/app.js",
+    "license": "MIT",
+    "author": "FelipeSilva",
+    "scripts": {
+      "dev": "nodemon ./src/server.js",
+      "actions": "cross-env NODE_ENV=test DB_USER=kenzie DB_PASSWORD=kenzie jest --forceExit",
+      "test": "cross-env NODE_ENV=test DB_USER=jhona DB_PASSWORD=1234 jest --verbose --forceExit"
+    },
+    "dependencies": {
+      "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+      "cross-env": "^7.0.3",
+      "dotenv": "^16.0.0",
+      "express": "4.18.2",
+      "express-async-errors": "3.1.1",
+      "jest": "^28.0.2",
+      "nodemon": "2.0.19",
+      "pg": "8.8.0",
+      "sucrase": "3.26.0",
+      "supertest": "^6.2.3",
+      "yup": "^0.32.11"
+    },
+    "type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
