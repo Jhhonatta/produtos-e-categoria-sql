@@ -1,13 +1,24 @@
-Comando para baixar as dependências
-Yarn
+## 👨🏻‍💻 Executando o projeto ou o teste
 
-Comando para fazer o teste
-Yarn teste
+Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
+Em seguida, inicie o projeto ou o teste.
+
+Iniciando a versão web:
+
+```cl
+yarn start ou npm run dev
+```
+
+Iniciando o test:
+
+```cl
+yarn test
+```
 
 Esse serviço possui uma API REST e um banco de dados PostgreSQL.
 
 
-
+```
 Método	Endpoint	Responsabilidade
 POST	/categories	Criação de categorias
 GET	/categories	Lista todos os categorias
@@ -20,3 +31,4 @@ GET	/products/<id>	Retorna os dados de um produto
 PATCH	/products/<id>	Atualiza os dados de um produto
 DELETE	/products/<id>	Deleta produtos do banco
 GET	/products/category/<category_id>	Retorna os dados dos produtos pertencentes a categoria dona do id
+```
