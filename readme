@@ -6,7 +6,7 @@ Em seguida, inicie o projeto ou o teste.
 Iniciando a versão web:
 
 ```cl
-yarn start ou npm run dev
+yarn dev
 ```
 
 Iniciando o test:
