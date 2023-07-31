@@ -1,4 +1,3 @@
-// import profileCategoryService from "../../services/profileCategory.service.js";
 import profileCategoryService from "../../services/category/profileCategory.service.js";
 
 const profileCategoryController = async (req, res) => {

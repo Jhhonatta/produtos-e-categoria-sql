@@ -1,4 +1,3 @@
-// import deleteCategoryService from "../../services/deleteCategory.service.js";
 import deleteCategoryService from "../../services/category/deleteCategory.service.js";
 
 const deleteCategoryController = async (req, res) => {

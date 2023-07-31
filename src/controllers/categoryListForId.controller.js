@@ -1,4 +1,3 @@
-// import categoryListForIdService from "../services/categoryListForId.service.js";
 import categoryListForIdService from "../services/category/categoryListForId.service.js";
 
 const categoryListForIdController = async (req, res) => {

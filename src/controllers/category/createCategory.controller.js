@@ -1,4 +1,3 @@
-// import createCategoryService from "../../services/createCategory.service.js";
 import createCategoryService from "../../services/category/createCategory.service.js";
 
 const createCategoryController = async (req, res) => {
